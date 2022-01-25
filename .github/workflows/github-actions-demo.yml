@@ -30,7 +30,6 @@ jobs:
         with:
           branch: main
           github_token: ${{ secrets.ACCESS_TOKEN }}
-      - run: jupyter nbconvert --to markdown README.ipynb
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - name: List files in the repository
         run: |
