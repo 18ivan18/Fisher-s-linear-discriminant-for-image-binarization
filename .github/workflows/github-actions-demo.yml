@@ -22,7 +22,7 @@ jobs:
         run: |
           git config --local user.email "ajabaja16@gmail.com"
           git config --local user.name "Ivan Arabadzhiyski"
-          git add README.md README_files
+          git add README.md
           git commit -m "Convert README.ipynb to README.md" -a
       - name: Push changes
         if: success()
